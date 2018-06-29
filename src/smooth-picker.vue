@@ -317,7 +317,7 @@
       getItemStyle (gIndex, iIndex) {
         const gapCount = this.currentIndexList[gIndex] - iIndex
         if (Math.abs(gapCount) < 4) {
-          let rotateStyle = 'transform: rotateX(' + gapCount * 23 + 'deg) translate3d(0, 0, 5.625em);'
+          let rotateStyle = 'transform: rotateX(' + gapCount * 23 + 'deg) translate3d(0, 0, 7.5em);'
           if (!this.dragInfo.isDragging) {
             rotateStyle += ' transition: transform 150ms ease-out;'
           }
